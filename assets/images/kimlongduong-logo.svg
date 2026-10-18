@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="jadeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#047857"/>
+      <stop offset="100%" stop-color="#064E3B"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Badge Circle -->
+  <circle cx="60" cy="60" r="56" fill="url(#jadeGrad)" stroke="url(#goldGrad)" stroke-width="4"/>
+  <!-- Inner Ring -->
+  <circle cx="60" cy="60" r="50" fill="none" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.6"/>
+  <!-- Stylized Medicinal Leaf & Dragon Motif (Kim Long) -->
+  <!-- Outer symmetrical petals / leaves -->
+  <path d="M60 22 C68 38, 86 44, 86 64 C86 78, 74 92, 60 98 C46 92, 34 78, 34 64 C34 44, 52 38, 60 22 Z" fill="#FBF9F5" opacity="0.95"/>
+  <!-- Leaf Vein & Vitality Spine -->
+  <path d="M60 28 L60 88" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M60 48 Q68 44 74 48" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M60 58 Q52 54 46 58" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M60 68 Q68 64 74 68" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Golden Core Pearl -->
+  <circle cx="60" cy="40" r="4.5" fill="url(#goldGrad)"/>
+</svg>
